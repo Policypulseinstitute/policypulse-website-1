@@ -1,5 +1,5 @@
 import React from 'react';
-import { cardOne, cardTwo } from './Data';
+import { teamOne, teamTwo } from './Data';
 import Footer from '../../Footer';
 import FigmaFrame from '../../ExpertCard';
 
@@ -8,8 +8,8 @@ import FigmaFrame from '../../ExpertCard';
 function Team() {
   return(
     <>
-      <FigmaFrame {...cardOne} />
-      <FigmaFrame {...cardTwo} />
+      <FigmaFrame {...teamOne} />
+      <FigmaFrame {...teamTwo} />
       <Footer/>
     </>
   );

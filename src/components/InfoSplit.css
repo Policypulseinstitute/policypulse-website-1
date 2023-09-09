@@ -1,0 +1,57 @@
+.split-component-container {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically */
+    background-size: cover;
+    background-position: center;
+    text-align: justify;
+    background-color: #242424;
+    width: 50%;
+    font-size: 16px;
+  }
+
+  .split-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFC700;
+    text-align: justify;
+    margin-bottom: 30px; /* Adds space between title and paragraphs */
+  }
+
+  .split-subtitle {
+    font-size: 25px;
+    font-weight: bold;
+    color: #A4D9FF;
+    text-align: justify;
+    margin-bottom: 30px; /* Adds space between title and paragraphs */
+  }
+
+  .split-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: justify;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .image-section {
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

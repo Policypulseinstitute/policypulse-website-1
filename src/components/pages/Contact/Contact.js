@@ -1,13 +1,12 @@
 import React from 'react';
 import { teamOne, teamTwo } from './Data';
 import Footer from '../../Footer';
-import FigmaFrame from '../../ExpertCard';
 import TeamComponent from '../../TeamPictures';
 import ImageComponent from '../../Partners';
 
 
 
-function Team() {
+function Contact() {
   const teamMembers = [
     { photoUrl: "images/team/sstouli.png", name: "Sami Stouli", position: "Director" },
     { photoUrl: "images/team/ssokullu.png", name: "Senay Sokullu", position: "Senior Economist" },
@@ -38,4 +37,4 @@ function Team() {
   );
 }
 
-export default Team;
+export default Contact;

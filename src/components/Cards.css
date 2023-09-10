@@ -1,10 +1,11 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: #242424;
 }
 
 h1 {
   text-align: center;
+  color: #FFFFFF;
 }
 
 .cards__container {
@@ -36,12 +37,14 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  box-shadow: 0 6px 10px #FFC700;
+  -webkit-filter: drop-shadow(0 6px 10px #FFC700);
+  filter: drop-shadow(0 6px 10px #FFC700);
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  background-color: #252e48;
+  color: #FFFFFF;
 }
 
 .cards__item__pic-wrap {
@@ -94,7 +97,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: #ffff;
   font-size: 18px;
   line-height: 24px;
 }

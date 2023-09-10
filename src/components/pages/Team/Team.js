@@ -1,7 +1,5 @@
 import React from 'react';
-import { teamOne, teamTwo } from './Data';
 import Footer from '../../Footer';
-import FigmaFrame from '../../ExpertCard';
 import TeamComponent from '../../TeamPictures';
 import ImageComponent from '../../Partners';
 

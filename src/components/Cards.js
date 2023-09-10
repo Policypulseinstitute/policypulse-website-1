@@ -5,40 +5,40 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Explore our Latest Projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
+              src='images/bkg-farm.png'
               text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              label='Policy'
               path='/expertise'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='images/bkg-farm.png'
               text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              label='Data Analysis'
               path='/expertise'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='images/bkg-farm.png'
               text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              label='Digital Currencies'
               path='/expertise'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src='images/bkg-farm.png'
               text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              label='Data Analysis'
               path='/team'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src='images/bkg-farm.png'
               text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              label='Politics'
               path='/sign-up'
             />
           </ul>

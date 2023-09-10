@@ -19,4 +19,4 @@ In order to have the code for this website and be able to make changes it is nec
 
     This should open a browser window and show the website in action.
 
-3. Open your code editor with the project folder. From this editor you will be able to make changes and after saving them they would automatically show on the website.
+3. Open your code editor (like VS Code) with the project folder. From this editor you will be able to make changes and after saving them they will automatically show on the website.

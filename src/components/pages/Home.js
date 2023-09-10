@@ -2,7 +2,6 @@ import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
-import FigmaFrame from '../ExpertCard';
 import BackgroundImageComponent from '../Information';
 import SplitComponent from '../InfoSplit';
 import SplitComponentReverse from '../InfoSplit_reverse';

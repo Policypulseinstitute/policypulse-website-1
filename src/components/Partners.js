@@ -8,7 +8,7 @@ function ImageComponent({ images }) {
         <div className="image-grid">
           {images.map((imageUrl, index) => (
             <div className="image-item" key={index}>
-              <img src={imageUrl} alt={`Image ${index + 1}`} className="single-image" />
+              <img src={imageUrl} alt={`Partner: ${index + 1}`} className="single-image" />
             </div>
           ))}
         </div>

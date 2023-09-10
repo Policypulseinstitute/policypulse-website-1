@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './components/pages/Projects/Projects';
 import Team from './components/pages/Team/Team';
 import Contact from './components/pages/Contact/Contact';
+import Project1 from './components/pages/Projects/Project1';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/projects' component={Projects} />
           <Route path='/team' component={Team} />
           <Route path='/contact' component={Contact} />
+          <Route path='/project1' component={Project1} />
         </Switch>
       </Router>
     </>

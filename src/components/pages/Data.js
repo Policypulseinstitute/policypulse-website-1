@@ -1,5 +1,5 @@
 export const cardExpertise = {
-  image: 'images/bkg-dotted.svg'
+  image: 'images/bkg-dotted.png'
 }
 
 export const cardPolicy = {

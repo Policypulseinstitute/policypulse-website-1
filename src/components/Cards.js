@@ -11,35 +11,35 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/bkg-farm.png'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              text='This is another important project'
               label='Policy'
-              path='/expertise'
+              path='/project1'
             />
             <CardItem
-              src='images/bkg-farm.png'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              src='images/projects/img-6.jpg'
+              text='This is another important project'
               label='Data Analysis'
-              path='/expertise'
+              path='/project1'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/bkg-farm.png'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              src='images/projects/img-2.jpg'
+              text='This is another important project'
               label='Digital Currencies'
-              path='/expertise'
+              path='/project1'
             />
             <CardItem
-              src='images/bkg-farm.png'
-              text='Experience Football on Top of the Himilayan Mountains'
+              src='images/projects/img-8.jpg'
+              text='This is another important project'
               label='Data Analysis'
-              path='/team'
+              path='/project1'
             />
             <CardItem
-              src='images/bkg-farm.png'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              src='images/projects/img-3.jpg'
+              text='This is another important project'
               label='Politics'
-              path='/sign-up'
+              path='/project1'
             />
           </ul>
         </div>

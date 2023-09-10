@@ -1,0 +1,106 @@
+.project-container {
+    display: flex;
+    width: 100%;
+    border: 1px solid #323232;;
+    padding: 20px 20px; 
+    align-items: center; /* This ensures vertical centering */
+    background-color: #323232;
+  }
+
+  
+  .project-info {
+    flex: 25%;
+    border: 2px solid #000; /* black border for that card look */
+    border-radius: 15px; /* rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* some shadow for depth */
+    padding: 30px;
+    background-color: #f9f9f9; /* a light background color */
+    font-family: 'Arial', sans-serif; /* typical font, you can replace with something you prefer */
+    position: relative; /* to allow positioning child elements */
+  }
+  
+  .project-info h3 {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* make the text uppercase for the card title */
+  }
+  
+  .project-info p {
+    font-size: 14px; /* adjust according to your preference */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* rounded corners for each info item */
+    padding: 8px 15px;
+    margin: 8px 0;
+    background-color: #fff; /* white background for the info item */
+    transition: background-color 0.3s; /* smooth transition for hover effects */
+  }
+  
+  .project-info p:hover {
+    background-color: #e6e6e6; /* a subtle hover effect */
+  }
+  
+  .project-info p strong {
+    display: block; /* make the label and value appear on separate lines */
+    font-size: 13px;
+    color: #333;
+  }
+  
+  
+  .project-main {
+    flex: 50%;
+    text-align: center;
+  }
+  
+  .project-main img {
+    width: 50%; /* Adjust according to your requirements */
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+  }
+
+  .info-text {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #e6e6e6;
+  }
+
+  .projecttitle {
+    font-size: 30px;
+    color: #FFC700;
+  }
+  
+  .project-actions {
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-actions a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .project-actions button {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .project-actions button:hover {
+    background-color: #555;
+  }
+
+  

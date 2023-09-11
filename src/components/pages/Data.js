@@ -11,14 +11,14 @@ export const cardPolicy = {
 }
 
 export const cardPolitics= {
-  image: 'images/bkg-data.png',
+  image: 'images/bkg-meet.png',
   title: 'Political Advisory',
   subtitle: 'INSTITUTIONAL COMMUNICATION & POLITICAL CAMPAINING',
   par1: 'Our political advisory team guides governments and organisations through their complex operating environments. We develop strategies and political campaigns to navigate political shifts, technology advancements, and public sentiment changes.',
   par2: "At Policy Pulse we empower leaders to effectively execute their policies. Recognizing that execution is today's leading challenge, we offer strategic advice, policy suggestions, and implementation support throughout the delivery process."
 }
 export const cardData = {
-  image: 'images/bkg-meet.png',
+  image: 'images/bkg-data.png',
   title: 'Data Analytics',
   subtitle: 'QUANTITATIVE METHODS FOR EFFECTIVE DECISION-MAKING',
   par1: 'We use machine learning tools to analyse large and complex datasets. We convey key quantitative findings through data visualisation to help our clients get new insights from available data.',

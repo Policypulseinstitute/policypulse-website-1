@@ -15,16 +15,16 @@
   font-weight: bold;
   border-bottom: 2px solid white;
   padding-bottom: 10px; /* Adds space between title and underline */
-  margin-bottom: 100px; /* Adds space between title and paragraphs */
+  margin-bottom: 60px; /* Adds space between title and paragraphs */
 }
 
 .info-text {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   padding-right: 400px;
   padding-left: 400px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 .highlighted {

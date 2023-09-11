@@ -9,7 +9,7 @@ function Team() {
   const teamMembers = [
     { photoUrl: "images/team/sstouli.png", name: "Sami Stouli", position: "Director" },
     { photoUrl: "images/team/ssokullu.png", name: "Senay Sokullu", position: "Senior Economist" },
-    { photoUrl: "images/team/sespinosa.jpeg", name: "Silvia Espinosa", position: "Senior Economist" },
+    { photoUrl: "images/team/sespinosa.png", name: "Silvia Espinosa", position: "Senior Economist" },
     { photoUrl: "images/team/dlara.png", name: "Diego Lara", position: "Data Scientist" },
     { photoUrl: "images/team/yaitakdim.png", name: "Youssef Ait Akdim", position: "Senior Political Advisor" },
   ];

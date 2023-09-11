@@ -19,15 +19,15 @@
   }
   
   .team-member {
-    width: 400px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px; /* Extra margin for each member */
+    margin: 20px; /* Extra margin for each member */
   }
   
   .team-grid .team-member:nth-child(n+4) {
-    width: 400px;
+    width: 350px;
   }
   
   .team-photo {

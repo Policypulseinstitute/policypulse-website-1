@@ -9,10 +9,10 @@ function BackgroundImageComponent({ image}) {
 
   return (
     <div style={backgroundImageStyle}  className="background-image-container">
-      <div className="info-title">Expertise</div>
+      <div className="info-title">What We Do</div>
       
-      <p className="info-text"><span className="highlighted">Policy Pulse</span> is a knowledge-for-policy institute providing research and advisory services to organisations and governments.</p>
-      <p className="info-text">At <span className="highlighted">Policy Pulse</span> we support policymakers and political institutions with evidence-based solutions when addressing complex issues.</p>
+      <p className="info-text"><span className="highlighted">Policy Pulse</span> is a knowledge-for-policy institute working in partnership with organisations and governments to provide research and advisory services.</p>
+      <p className="info-text">At <span className="highlighted">Policy Pulse</span> we build bridges between cutting-edge research and real-world implementation by supporting policymakers with evidence-based solutions to complex issues.</p>
       <p className="info-text">At <span className="highlighted">Policy Pulse</span> we are an experienced team that brings together a unique blend of global policy expertise and frontier quantitative techniques, with comprehensive know-how in <span className="highlighted-other">policy development and evaluation, data analytics, and political advisory services.</span></p>
     </div>
   );

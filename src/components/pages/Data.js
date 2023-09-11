@@ -21,7 +21,7 @@ export const cardData = {
   image: 'images/bkg-data.png',
   title: 'Data Analytics',
   subtitle: 'QUANTITATIVE METHODS FOR EFFECTIVE DECISION-MAKING',
-  par1: 'We use machine learning tools to analyse large and complex datasets. We convey key quantitative findings through data visualisation to help our clients get new insights from available data.',
+  par1: 'We use machine learning tools to analyse large and complex datasets. We convey key quantitative findings through data visualisation to help policymakers get new insights from available data.',
   par2: 'Policy Pulse combines public policy and data analytics experts that use knowledge to interpret data and formulate nuanced and effective policy recommendations.',
-  par3: 'Our experts routinely work with a broad range of data sources, from consumer and population surveys to financial data, helping our clients develop new analytical tools and perform accurate policy evaluation, monitoring and forecasting. '
+  par3: 'Our experts routinely work with a broad range of data sources, from consumer and population surveys to financial data, helping organisations develop new analytical tools and perform accurate policy evaluation, monitoring and forecasting. '
 }

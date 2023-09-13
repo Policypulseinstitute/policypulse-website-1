@@ -9,7 +9,7 @@ function TeamComponent({ members }) {
           {members.map((member, index) => (
             <div className="team-member" key={index}>
               <img src={member.photoUrl} alt={member.name} className="team-photo" />
-              <div className="team-info">
+                <div className="team-info">
                 <div className="team-name">{member.name}</div>
                 <div className="team-position">{member.position}</div>
               </div>

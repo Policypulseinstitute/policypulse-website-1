@@ -50,6 +50,18 @@ video {
   margin: 6px;
 }
 
+.hero-inner {
+  margin-top: 60px;
+}
+
+.hero-inner > h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: 'Futura';
+  margin-top: 10px;
+}
+
 .fa-play-circle {
   margin-left: 4px;
 }

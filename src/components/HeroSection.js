@@ -14,6 +14,11 @@ function HeroSection() {
           for Policy
         </h1>
       </div>
+      <div className='hero-inner'>
+        <h2>
+          Blending academic knowledge and policy expertise to help leaders and organisations deliver
+      </h2>
+      </div>
     </div>
   );
 }

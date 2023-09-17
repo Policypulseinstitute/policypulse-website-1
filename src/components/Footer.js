@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
+        <p className='footer-subscription-heading' style={{ fontFamily: 'Futura, sans-serif' }}>
           Contact Us
         </p>
         <p className='footer-subscription-text'>
@@ -16,11 +16,11 @@ function Footer() {
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/' className='social-logo' style={{ fontFamily: 'Futura, sans-serif' }}>
               POLICY PULSE
             </Link>
           </div>
-          <small class='website-rights'>POLICY PULSE © 2023 All rights reserved.</small>
+          <small class='website-rights' style={{ fontFamily: 'Futura, sans-serif' }}>POLICY PULSE © 2023 All rights reserved.</small>
         </div>
       </section>
     </div>

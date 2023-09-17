@@ -12,7 +12,12 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu} style={{ fontFamily: 'Futura, sans-serif' }}>
+          <Link 
+            to='/' 
+            className='navbar-logo' 
+            onClick={closeMobileMenu} 
+            style={{ fontFamily: 'Futura, sans-serif' }}
+            >
             POLICY PULSE INSTITUTE
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -24,6 +29,7 @@ function Navbar() {
                 to='/team'
                 className='nav-links'
                 onClick={closeMobileMenu}
+                style={{ fontFamily: 'Futura, sans-serif' }}
               >
                 Our Team
               </Link>
@@ -33,6 +39,7 @@ function Navbar() {
                 to='/contact'
                 className='nav-links'
                 onClick={closeMobileMenu}
+                style={{ fontFamily: 'Futura, sans-serif' }}
               >
                 Contact
               </Link>

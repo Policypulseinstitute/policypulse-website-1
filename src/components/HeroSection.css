@@ -21,6 +21,8 @@ video {
 .hero-container > h1 {
   color: #fff;
   font-size: 70px;
+  font-weight: normal;
+  font-family: 'Futura';
   margin-top: -200px;
 }
 
@@ -39,6 +41,8 @@ video {
 .hero-sub > h1 {
   color: #fff;
   font-size: 70px;
+  font-weight: normal;
+  font-family: 'Futura';
   margin-top: -100px;
 }
 

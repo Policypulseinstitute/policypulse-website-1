@@ -4,7 +4,9 @@ import './TeamPictures.css';
 function TeamComponent({ members }) {
     return (
       <div className="team-container">
-        <div className="team-title" style={{ fontFamily: 'Futura, sans-serif' }}>Our Core Team</div>
+        <div className="team-title" >
+          Our Core Team
+          </div>
         <div className="team-grid">
           {members.map((member, index) => (
             <div className="team-member" key={index}>

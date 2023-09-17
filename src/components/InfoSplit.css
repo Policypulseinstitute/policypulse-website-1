@@ -20,7 +20,7 @@
 
   .split-title {
     font-size: 50px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #FFC700;
     text-align: justify;
     margin-bottom: 30px; /* Adds space between title and paragraphs */
@@ -28,7 +28,7 @@
 
   .split-subtitle {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bold; 
     color: #A4D9FF;
     text-align: justify;
     margin-bottom: 30px; /* Adds space between title and paragraphs */
@@ -36,7 +36,7 @@
 
   .split-text {
     font-size: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #FFFFFF;
     text-align: justify;
     padding-right: 100px;

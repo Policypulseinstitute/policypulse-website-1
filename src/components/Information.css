@@ -12,7 +12,7 @@
 
 .info-title {
   font-size: 40px;
-  font-weight: bold;
+  /* font-weight: bold; */
   border-bottom: 2px solid white;
   padding-bottom: 10px; /* Adds space between title and underline */
   margin-bottom: 60px; /* Adds space between title and paragraphs */

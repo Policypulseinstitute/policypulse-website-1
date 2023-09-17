@@ -12,7 +12,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu} style={{ fontFamily: 'Futura, sans-serif' }}>
             POLICY PULSE INSTITUTE
           </Link>
           <div className='menu-icon' onClick={handleClick}>

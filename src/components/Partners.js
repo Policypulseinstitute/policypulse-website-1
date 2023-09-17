@@ -4,7 +4,7 @@ import './Partners.css';
 function ImageComponent({ images }) {
     return (
       <div className="image-container">
-        <div className="image-title">Our Team Has Worked With</div>
+        <div className="image-title" style={{ fontFamily: 'Futura, sans-serif' }}>Our Team Has Worked With</div>
         <div className="image-grid">
           {images.map((imageUrl, index) => (
             <div className="image-item" key={index}>

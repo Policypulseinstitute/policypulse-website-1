@@ -18,7 +18,7 @@ function Navbar() {
             onClick={closeMobileMenu} 
             style={{ fontFamily: 'Futura, sans-serif' }}
             >
-            POLICY PULSE INSTITUTE
+            Policy Pulse Institute
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

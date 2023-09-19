@@ -20,7 +20,7 @@
 }
 
 .info-text {
-  font-size: 22px;
+  font-size: 20px;
   /* font-weight: bold; */
   padding-right: 400px;
   padding-left: 400px;
@@ -30,6 +30,7 @@
 
 .highlighted {
   color: #FFC700; /* Or any color you want for highlighted words */
+  /* text-shadow: 2px 2px rgba(128, 128, 128, 0.8); /*
   /* font-weight: bold; */
 }
 

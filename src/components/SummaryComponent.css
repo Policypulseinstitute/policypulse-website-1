@@ -1,8 +1,8 @@
 .summary-container {
     background-color: hsla(226, 7%, 34%, 0.9);
     text-align: center; /* Centered text */
-    padding-top: 100px; /* Padding around the text */
-    height: 875px;
+    padding-top: 50px; /* Padding around the text */
+    height: 880px;
     margin-top: 2px; /* Combined margin properties */
     margin-bottom: 3px; /* Combined margin properties */
   }
@@ -25,5 +25,23 @@
     margin-left: 400px; /* Padding around the text */
     margin-right: 400px; /* Padding around the text */
   }
+
+  .summary-title {
+    font-size: 4em; /* Large text */
+    font-style: italic; /* Italic text */
+    font-weight: bold; /* Adjust as needed */
+    text-align: center; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    color: #ffffff;
+  }
+
+  .title-part1 {
+    color: #FFFFFF; /* White */
+}
+
+.title-part2 {
+    color: #A4D9FF; /* Custom Color */
+}
+
 
   

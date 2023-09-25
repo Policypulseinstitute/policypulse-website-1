@@ -1,10 +1,11 @@
 import React from 'react';
 import './TeamPictures.css';
+import Pillars from './bkg-pillars2.png'; // Make sure the path is correct
 
 function TeamComponent({ members }) {
     return (
-      <div className="team-container">
-        <div className="team-title" >
+      <div className="team-container"  style={{ backgroundImage: `url(${Pillars})` }}> {/* Modified Line */}
+          <div className="team-title" >
           Our Core Team
           </div>
         <div className="team-grid">

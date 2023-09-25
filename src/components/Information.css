@@ -5,9 +5,15 @@
   justify-content: center; /* Centers children vertically */
   background-size: cover;
   /* background-position: center; */
-  height: 800px; /* or any desired height */
+  height: 675px; /* or any desired height */
+  /* width: 1400px; /* or any desired height */
   color: white;
   text-align: justify;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  opacity: 0.95;
 }
 
 .info-title {

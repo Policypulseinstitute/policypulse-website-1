@@ -3,8 +3,11 @@
     padding: 60px;
     border-radius: 8px;
     text-align: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center 75%;
   }
-  
+
   .team-title {
     font-size: 40px;
     /* font-weight: bold; */

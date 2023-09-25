@@ -12,14 +12,30 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link 
-            to='/' 
-            className='navbar-logo' 
+          <div 
+            className='navbar-logo-container' 
             onClick={closeMobileMenu} 
-            style={{ fontFamily: 'Futura, sans-serif' }}
+            style={{ textAlign: 'center' }}
+          >
+            <Link 
+              to='/' 
+              className='navbar-logo' 
+              style={{ fontFamily: 'Futura, sans-serif', display: 'inline-block' }}
             >
-            Policy Pulse Institute
-          </Link>
+              Policy Pulse Institute
+            </Link>
+            <div 
+              className='navbar-motto' 
+              style={{ 
+                fontFamily: 'Garamond, serif', 
+                color: '#A4D9FF', // Changed color to '#A4D9FF'
+                fontSize: 'smaller', 
+                fontStyle: 'italic' // Set font style to italic
+              }}
+            >
+              Primum Non Desipere
+            </div>
+          </div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

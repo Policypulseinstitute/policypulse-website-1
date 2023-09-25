@@ -1,0 +1,42 @@
+.motto-container {
+    background-color: hsla(230, 7%, 34%, 0.9);
+    text-align: center; /* Centered text */
+    padding-top: 10px; /* Padding around the text */
+    height: 470px;
+    margin-top: 3px; /* Combined margin properties */
+  }
+  
+ /* .motto-translation{
+ /*   font-style: italic; /* Italic text */
+ /*   font-size: 6em; /* Large text */
+ /*   color: #A4D9FF;
+  /*  padding: 40px; /* Padding around the text */
+/*} */
+
+  .motto-text {
+    font-family: 'Garamond, serif'; 
+    font-style: italic; /* Italic text */
+    font-size: 5em; /* Large text */
+    color: #A4D9FF;
+    padding: 50px;
+  }
+
+  .motto-explanation {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically */
+    text-align: justify;
+    font-family: Futura, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.5em; /* Normal text size */
+    color: #FFFFFF; /* White text color for translation and explanation */
+    margin-left: 400px; /* Padding around the text */
+    margin-right: 400px; /* Padding around the text */
+  }
+
+  .motto-highlighted {
+    color: #A4D9FF;
+    font-weight: bold;
+    font-style: italic;
+  }
+  

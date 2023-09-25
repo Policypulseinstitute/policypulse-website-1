@@ -1,0 +1,29 @@
+.summary-container {
+    background-color: hsla(226, 7%, 34%, 0.9);
+    text-align: center; /* Centered text */
+    padding-top: 100px; /* Padding around the text */
+    height: 875px;
+    margin-top: 2px; /* Combined margin properties */
+    margin-bottom: 3px; /* Combined margin properties */
+  }
+
+  .summary-image {
+    max-width: 50%; /* Ensures the image is responsive */
+    height: auto; /* Maintains the aspect ratio */
+    margin-bottom: 20px; /* Space between the image and the text */
+  }
+
+  .summary-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers children horizontally */
+    justify-content: center; /* Centers children vertically */
+    text-align: justify;
+    font-family: Futura, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 1.5em; /* Normal text size */
+    color: #FFFFFF; /* White text color for translation and explanation */
+    margin-left: 400px; /* Padding around the text */
+    margin-right: 400px; /* Padding around the text */
+  }
+
+  

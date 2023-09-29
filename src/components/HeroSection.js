@@ -16,7 +16,7 @@ function HeroSection() {
       </div>
       <div className='hero-inner'>
         <h2>
-        Blending academic insight and policy expertise to equip leaders and organisations with practical, evidence-based solutions.
+        Blending academic insight and policy expertise to equip leaders and organisations with innovative, evidence-based solutions
       </h2>
       </div>
     </div>

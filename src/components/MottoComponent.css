@@ -1,8 +1,8 @@
 .motto-container {
     background-color: hsla(226, 7%, 34%, 0.9);
     text-align: center; /* Centered text */
-    padding-top: 10px; /* Padding around the text */
-    height: 470px;
+    padding-top: 0px; /* Padding around the text */
+    height: 450px;
     margin-top: 3px; /* Combined margin properties */
   }
   

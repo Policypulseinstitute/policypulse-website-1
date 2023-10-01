@@ -1,9 +1,9 @@
-.background-image-container {
+.info-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center; /* Centers children horizontally */
   justify-content: center; /* Centers children vertically */
-  background-size: cover;
   /* background-position: center; */
   height: 675px; /* or any desired height */
   /* width: 1400px; /* or any desired height */
@@ -14,6 +14,15 @@
   margin-top: 0px;
   margin-bottom: 2px;
   opacity: 0.95;
+}
+
+.info-image {
+  position: absolute; /* Changed to absolute */
+  top: 100px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 0px;
 }
 
 .info-title {

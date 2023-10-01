@@ -19,7 +19,8 @@
     /* background-size: cover;
     /* background-position: center; */
     text-align: justify;
-    background-color: hsla(228, 15%, 31%, 0.9);
+    /*background-color: hsla(228, 15%, 31%, 0.9);*/
+    background-color: hsla(0, 0%, 100%, 1);
     width: 60%;
     /* height: 600px; */
     font-size: 16px;
@@ -40,7 +41,8 @@
     font-size: 25px;
     /* font-weight: bold; */
     font-Family: 'Futura';
-    color: #A4D9FF;
+    /*color: #A4D9FF;*/
+    color: rgba(31, 78, 121); /* Set background color to black */
     text-align: justify;
     margin-bottom: 30px; /* Adds space between title and paragraphs */
   }
@@ -49,7 +51,8 @@
     font-size: 18px;
     /* font-weight: bold; */
     font-Family: 'Futura';
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
+    color: #000000;
     text-align: justify;
     padding-right: 120px;
     padding-left: 120px;

@@ -40,11 +40,11 @@ function Home() {
     <>
       <HeroSection />
       <BackgroundComponent {...cardExpertise}/>
-      <MottoComponent /> 
+      <SummaryComponent /> 
       <SplitComponent {...cardPolicy}/>
       <SplitComponentReverse {...cardData}/>
       <SplitComponent {...cardPolitics}/>
-      <SummaryComponent /> 
+      <MottoComponent /> 
       <TeamComponent members={teamMembers} />
       <ImageComponent images={partnersImgs} />
       <Footer />

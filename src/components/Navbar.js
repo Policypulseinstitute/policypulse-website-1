@@ -28,7 +28,7 @@ function Navbar() {
               className='navbar-motto' 
               style={{ 
                 fontFamily: 'Garamond, serif', 
-                color: '#A4D9FF', // Changed color to '#A4D9FF'
+                color: '#ffffff',
                 fontSize: 'smaller', 
                 fontStyle: 'italic' // Set font style to italic
               }}

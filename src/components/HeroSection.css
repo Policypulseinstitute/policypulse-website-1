@@ -8,13 +8,13 @@ video {
 
 .hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .8);
   object-fit: contain;
 }
 
@@ -60,6 +60,13 @@ video {
   font-weight: normal;
   font-family: 'Futura';
   margin-top: 10px;
+  /*margin-left: 380px;
+  margin-right: 380px;*/
+}
+
+.second-line {
+  display: block; /* Makes the span behave like a block-level element, causing a line break */
+  text-align: center;
 }
 
 .fa-play-circle {

@@ -1,9 +1,11 @@
 .motto-container {
-    background-color: hsla(226, 7%, 34%, 0.9);
+    /* background-color: hsla(226, 7%, 34%, 0.9); */
+    background-color: #ffffff;
     text-align: center; /* Centered text */
     padding-top: 0px; /* Padding around the text */
     height: 450px;
     margin-top: 3px; /* Combined margin properties */
+    opacity:95%;
   }
   
  /* .motto-translation{
@@ -17,7 +19,9 @@
     font-family: 'Garamond, serif'; 
     font-style: italic; /* Italic text */
     font-size: 5em; /* Large text */
-    color: #A4D9FF;
+    /*color: #A4D9FF;*/
+    /*color: rgba(31, 78, 121); /* Set background color to black */
+    color: #FFC700;
     padding: 50px;
   }
 
@@ -29,13 +33,15 @@
     text-align: justify;
     font-family: Futura, 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 1.5em; /* Normal text size */
-    color: #FFFFFF; /* White text color for translation and explanation */
+    /*color: #FFFFFF; /* White text color for translation and explanation */
+    color: #000000; /* White text color for translation and explanation */
     margin-left: 400px; /* Padding around the text */
     margin-right: 400px; /* Padding around the text */
   }
 
   .motto-highlighted {
-    color: #A4D9FF;
+    /*color: #A4D9FF;*/
+    color: rgba(31, 78, 121); /* Set background color to black */
     font-weight: bold;
     font-style: italic;
   }

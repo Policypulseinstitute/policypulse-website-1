@@ -5,7 +5,7 @@ export const cardExpertise = {
 export const cardPolicy = {
   image: 'images/bkg-farm.png',
   title: 'Policy Expertise',
-  subtitle: 'POLICY DEVELOPMENT & EVALUATION',
+  subtitle: 'POLICY CRAFTING & EVALUATION',
   par1: 'Policy Pulse offers a knowledge-based approach to policy development for supporting organisations and governments. We use research insights to help policymakers design and implement the most effective policies.',
   par2: 'Effective policy development requires in-depth understanding of the local context to make the best use of existing evidence. It is also crucial that policy design incorporates social, political and financial risk. At Policy Pulse we help policymakers articulate these dimensions for sound, cost-effective, policy delivery in complex environments.'
 }

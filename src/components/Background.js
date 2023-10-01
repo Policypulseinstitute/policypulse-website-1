@@ -1,7 +1,6 @@
 import React from 'react';
 import './Background.css';
 
-
 function BackgroundComponent() {
   const fontStyle = {
     fontFamily: 'Futura, sans-serif',
@@ -19,3 +18,7 @@ function BackgroundComponent() {
 }
 
 export default BackgroundComponent;
+
+/*
+import OwlImage from './bkg-owl.png'; // Ensure the path is correct
+<img src={OwlImage} alt="OwlImage" className="info-image" /> */

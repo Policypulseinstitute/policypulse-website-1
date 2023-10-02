@@ -5,15 +5,9 @@
     padding-top: 0px; /* Padding around the text */
     height: 450px;
     margin-top: 3px; /* Combined margin properties */
+    margin-bottom: 3px; /* Combined margin properties */
     opacity:95%;
   }
-  
- /* .motto-translation{
- /*   font-style: italic; /* Italic text */
- /*   font-size: 6em; /* Large text */
- /*   color: #A4D9FF;
-  /*  padding: 40px; /* Padding around the text */
-/*} */
 
   .motto-text {
     font-family: 'Garamond, serif'; 

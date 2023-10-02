@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import OwlImage from './bkg-owl.png'; // Ensure the path is correct
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -12,28 +13,15 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <div 
-            className='navbar-logo-container' 
-            onClick={closeMobileMenu} 
-            style={{ textAlign: 'center' }}
-          >
-            <Link 
-              to='/' 
-              className='navbar-logo' 
-              style={{ fontFamily: 'Futura, sans-serif', display: 'inline-block' }}
-            >
-              Policy Pulse Institute
-            </Link>
-            <div 
-              className='navbar-motto' 
-              style={{ 
-                fontFamily: 'Garamond, serif', 
-                color: '#ffffff',
-                fontSize: 'smaller', 
-                fontStyle: 'italic' // Set font style to italic
-              }}
-            >
-              Primum Non Desipere
+          <div className='navbar-logo-container' onClick={closeMobileMenu} style={{ textAlign: 'center' }}>
+            <img src={OwlImage} alt="Owl Logo" className="navbar-logo-image" /> {/* Logo Image */}
+            <div className="navbar-text-container">
+              <Link to='/' className='navbar-logo' style={{ fontFamily: 'Futura, sans-serif', display: 'inline-block' }}>
+                Policy Pulse Institute
+              </Link>
+              <div className='navbar-motto' style={{ fontFamily: 'Garamond, serif', color: '#ffffff', fontSize: 'smaller', fontStyle: 'italic' }}>
+                Primum Non Desipere
+              </div>
             </div>
           </div>
           <div className='menu-icon' onClick={handleClick}>

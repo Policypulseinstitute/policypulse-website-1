@@ -48,12 +48,13 @@
   }
 
   .split-text {
-    font-size: 18px;
-    /* font-weight: bold; */
-    font-Family: 'Futura';
+    font-size: 22px;
+    /* font-weight: bold;  */
+    font-Family: 'Avenir';
     /*color: #FFFFFF;*/
     color: #000000;
     text-align: justify;
+    line-height: 1.5;
     padding-right: 120px;
     padding-left: 120px;
     padding-top: 20px;

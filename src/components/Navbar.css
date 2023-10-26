@@ -1,12 +1,14 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
-  height: 60px;
+  /*background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);*/
+  background: rgba(18, 18, 18, 1);
+  /*background: #1F4E79;*/
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   position: sticky;
-  top: 0;
+  top: 0px;
   z-index: 999;
 }
 
@@ -14,20 +16,44 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 100px;
   max-width: 1500px;
 }
 
 .navbar-logo {
   color: #FFC700;
   justify-self: start;
-  margin-left: 20px;
+  margin-left: 0px;
   cursor: pointer;
   text-decoration: none;
   text-shadow: 2px 2px rgba(128, 128, 128, 0.8);
   font-size: 2rem;
   display: flex;
   align-items: center;
+}
+
+.navbar-motto {
+  margin-left: 0px;
+}
+
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+.navbar-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2px; /* Reduced gap between logo and text container */
+}
+
+.navbar-logo-image {
+  height: 70px; /* Adjust as needed */
+  margin-left: 0px; /* Small margin to move logo slightly to the right */
+  margin-bottom: 0px; /* Small margin to move logo slightly to the right */
 }
 
 .fa-typo3 {
@@ -38,12 +64,12 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 30px;
   list-style: none;
   text-align: center;
   width: 60vw;
   justify-content: end;
-  margin-right: 2rem;
+  margin-right: 4rem;
 }
 
 .nav-item {

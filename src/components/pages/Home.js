@@ -2,9 +2,12 @@ import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
-import BackgroundImageComponent from '../Information';
+/* import BackgroundImageComponent from '../Information'; */
+import BackgroundComponent from '../Background';
+import MottoComponent from '../MottoComponent';
 import SplitComponent from '../InfoSplit';
 import SplitComponentReverse from '../InfoSplit_reverse';
+import SummaryComponent from '../SummaryComponent'; 
 import TeamComponent from '../TeamPictures';
 import ImageComponent from '../Partners';
 
@@ -36,6 +39,22 @@ function Home() {
   return (
     <>
       <HeroSection />
+      <BackgroundComponent {...cardExpertise}/>
+      <SummaryComponent /> 
+      <SplitComponent {...cardPolicy}/>
+      <SplitComponentReverse {...cardData}/>
+      <SplitComponent {...cardPolitics}/>
+      <MottoComponent /> 
+      <TeamComponent members={teamMembers} />
+      <ImageComponent images={partnersImgs} />
+      <Footer />
+    </>
+  );
+
+  /* return (
+    <>
+      <HeroSection />
+      <BackgroundComponent />
       <BackgroundImageComponent {...cardExpertise}/>
       <SplitComponent {...cardPolicy}/>
       <SplitComponentReverse {...cardData}/>
@@ -44,7 +63,7 @@ function Home() {
       <ImageComponent images={partnersImgs} />
       <Footer />
     </>
-  );
+  ); */
 }
 
 export default Home;

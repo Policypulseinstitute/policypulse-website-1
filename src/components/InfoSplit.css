@@ -1,8 +1,14 @@
 .split-component-container {
     display: flex;
     width: 100%;
-    height: 675px;
+    height: 625px;
     overflow: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    gap: 0px;
+
   }
   
   .text-section {
@@ -10,17 +16,22 @@
     flex-direction: column;
     align-items: center; /* Centers children horizontally */
     justify-content: center; /* Centers children vertically */
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover;
+    /* background-position: center; */
     text-align: justify;
-    background-color: rgba(75, 75, 75, 0.403);
-    width: 54%;
+    /*background-color: hsla(228, 15%, 31%, 0.9);*/
+    background-color: hsla(0, 0%, 100%, 1);
+    width: 60%;
+    /* height: 600px; */
     font-size: 16px;
+    padding-top: 20px;
+
   }
 
   .split-title {
     font-size: 50px;
     /* font-weight: bold; */
+    font-Family: 'Futura';
     color: #FFC700;
     text-align: justify;
     margin-bottom: 30px; /* Adds space between title and paragraphs */
@@ -28,26 +39,35 @@
 
   .split-subtitle {
     font-size: 25px;
-    font-weight: bold; 
-    color: #A4D9FF;
+    /* font-weight: bold; */
+    font-Family: 'Futura';
+    /*color: #A4D9FF;*/
+    color: rgba(31, 78, 121); /* Set background color to black */
     text-align: justify;
     margin-bottom: 30px; /* Adds space between title and paragraphs */
   }
 
   .split-text {
-    font-size: 20px;
-    /* font-weight: bold; */
-    color: #FFFFFF;
+    font-size: 22px;
+    /* font-weight: bold;  */
+    font-Family: 'Avenir';
+    /*color: #FFFFFF;*/
+    color: #000000;
     text-align: justify;
-    padding-right: 100px;
-    padding-left: 100px;
+    line-height: 1.5;
+    padding-right: 120px;
+    padding-left: 120px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
   
   .image-section {
-    width: 46%;
+    width: 40%;
+    /* height: 600px; */
     overflow: hidden;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   
   .image-section img {

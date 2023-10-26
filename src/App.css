@@ -8,7 +8,8 @@
 .home,
 .expertise,
 .team,
-.sign-up {
+.sign-up,
+.background { /* Added .background class */
   display: flex;
   height: 90vh;
   align-items: center;
@@ -38,4 +39,9 @@
   background-repeat: no-repeat;
   color: #343A49;
   font-size: 100px;
+}
+
+.background { /* New class for the new component */
+  background-color: black; /* Black background color */
+  color: white; /* Text color */
 }

@@ -3,8 +3,8 @@
     background-color: #ffffff;
     text-align: center; /* Centered text */
     min-height: 450px;
-    opacity:95%;
     padding: auto;
+    opacity: 0.95;
   }
 
   .motto-text {

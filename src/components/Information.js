@@ -15,4 +15,4 @@ function InfoComponent() {
     );
 }
 
-export default BackgroundImageComponent;
+export default InfoComponent;

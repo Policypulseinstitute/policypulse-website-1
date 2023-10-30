@@ -2,11 +2,9 @@
     /* background-color: hsla(226, 7%, 34%, 0.9); */
     background-color: #ffffff;
     text-align: center; /* Centered text */
-    padding-top: 0px; /* Padding around the text */
-    height: 450px;
-    margin-top: 3px; /* Combined margin properties */
-    margin-bottom: 3px; /* Combined margin properties */
+    min-height: 450px;
     opacity:95%;
+    padding: auto;
   }
 
   .motto-text {
@@ -16,7 +14,7 @@
     /*color: #A4D9FF;*/
     /*color: rgba(31, 78, 121); /* Set background color to black */
     color: #FFC700;
-    padding: 50px;
+    padding: 2%;
   }
 
   .motto-explanation {
@@ -29,8 +27,8 @@
     font-size: 1.5em; /* Normal text size */
     /*color: #FFFFFF; /* White text color for translation and explanation */
     color: #000000; /* White text color for translation and explanation */
-    margin-left: 400px; /* Padding around the text */
-    margin-right: 400px; /* Padding around the text */
+    margin: 0% 20% 0% 20%;
+    padding: 5% 0% 10% 0%;
   }
 
   .motto-highlighted {

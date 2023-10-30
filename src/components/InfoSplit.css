@@ -1,14 +1,14 @@
 .split-component-container {
     display: flex;
     width: 100%;
-    height: 625px;
+    min-height: 625px;
     overflow: hidden;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 2px;
     padding-bottom: 0px;
     gap: 0px;
-
+    flex-direction: row; 
   }
   
   .text-section {
@@ -24,7 +24,7 @@
     width: 60%;
     /* height: 600px; */
     font-size: 16px;
-    padding-top: 20px;
+    padding-top: 5%;
 
   }
 
@@ -34,7 +34,7 @@
     font-Family: 'Futura';
     color: #FFC700;
     text-align: justify;
-    margin-bottom: 30px; /* Adds space between title and paragraphs */
+    margin-bottom: 15%; /* Adds space between title and paragraphs */
   }
 
   .split-subtitle {
@@ -44,7 +44,7 @@
     /*color: #A4D9FF;*/
     color: rgba(31, 78, 121); /* Set background color to black */
     text-align: justify;
-    margin-bottom: 30px; /* Adds space between title and paragraphs */
+    margin-bottom: 15%; /* Adds space between title and paragraphs */
   }
 
   .split-text {
@@ -55,10 +55,7 @@
     color: #000000;
     text-align: justify;
     line-height: 1.5;
-    padding-right: 120px;
-    padding-left: 120px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 5% 20% 5% 20%;
   }
   
   .image-section {
@@ -75,3 +72,17 @@
     height: 100%;
     object-fit: cover;
   }
+
+@media screen and (max-width: 960px) {
+  .split-component-container {
+      flex-direction: column; /* Stack children vertically on smaller screens */
+  }
+  
+  .text-section, .image-section {
+      width: 100%; /* Ensure both sections take up the full width on smaller screens */
+  }
+  
+  .split-text {
+      padding: 5%; /* Adjust padding as necessary */
+  }
+}

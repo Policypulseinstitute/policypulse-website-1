@@ -34,7 +34,7 @@
     font-Family: 'Futura';
     color: #FFC700;
     text-align: justify;
-    margin-bottom: 15%; /* Adds space between title and paragraphs */
+    margin-bottom: 5%; /* Adds space between title and paragraphs */
   }
 
   .split-subtitle {
@@ -44,7 +44,7 @@
     /*color: #A4D9FF;*/
     color: rgba(31, 78, 121); /* Set background color to black */
     text-align: justify;
-    margin-bottom: 15%; /* Adds space between title and paragraphs */
+    margin-bottom: 5%; /* Adds space between title and paragraphs */
   }
 
   .split-text {
@@ -55,7 +55,7 @@
     color: #000000;
     text-align: justify;
     line-height: 1.5;
-    padding: 5% 20% 5% 20%;
+    padding: 2% 20% 2% 20%;
   }
   
   .image-section {

@@ -9,28 +9,28 @@
   .image-title {
     font-size: 40px;
     /* font-weight: bold; */
-    padding: 10% 0% 10% 0%;
+    padding: 10% 0% 5% 0%;
   }
   
   .image-grid {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 1%;
   }
   
   .image-item {
-    width: 200px; /* To have 3 images in the first row */
+    width: 28%; /* To have 3 images in the first row */
   }
   
   .image-item:nth-child(n+4),
   .image-item:nth-child(n+5) {
-    width: 200px;  
+    width: 20%;  
   }
   
   .image-item:nth-child(n+6),
   .image-item:nth-child(n+7) {
-    width: 200px; 
+    width: 20%; 
   }
   
   .single-image {

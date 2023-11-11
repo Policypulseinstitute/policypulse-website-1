@@ -3,12 +3,11 @@
     width: 100%;
     min-height: 625px;
     overflow: hidden;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 2px;
-    padding-bottom: 0.2%;
-    gap: 0px;
-    flex-direction: row; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: row;
+    border-bottom: 2px solid black;
   }
   
   .text-section {
@@ -25,7 +24,7 @@
     /* height: 600px; */
     font-size: 16px;
     padding-top: 5%;
-
+    padding-bottom: 5%;
   }
 
   .split-title {
@@ -39,19 +38,15 @@
 
   .split-subtitle {
     font-size: 25px;
-    /* font-weight: bold; */
     font-Family: 'Futura';
-    /*color: #A4D9FF;*/
-    color: rgba(31, 78, 121); /* Set background color to black */
+    color: rgba(31, 78, 121); 
     text-align: justify;
-    margin-bottom: 5%; /* Adds space between title and paragraphs */
+    margin-bottom: 5%;
   }
 
   .split-text {
     font-size: 22px;
-    /* font-weight: bold;  */
     font-Family: 'Avenir';
-    /*color: #FFFFFF;*/
     color: #000000;
     text-align: justify;
     line-height: 1.5;
@@ -60,11 +55,10 @@
   
   .image-section {
     width: 40%;
-    /* height: 600px; */
     overflow: hidden;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-bottom: 0; /* Remove margin bottom or adjust it */
+    padding-bottom: 0; /* Remove padding bottom or adjust it */
+    box-sizing: border-box;
   }
   
   .image-section img {
@@ -76,13 +70,25 @@
 @media screen and (max-width: 960px) {
   .split-component-container {
       flex-direction: column; /* Stack children vertically on smaller screens */
+      box-sizing: border-box;
+      overflow: auto; 
+      
   }
   
   .text-section, .image-section {
       width: 100%; /* Ensure both sections take up the full width on smaller screens */
+      margin-bottom: 0; /* Remove margin bottom or adjust it */
+      box-sizing: border-box;
+      overflow: hidden;
+      border-bottom: 2px solid black;
+  }
+
+  .image-section img {
+    display: block;
   }
   
   .split-text {
       padding: 5%; /* Adjust padding as necessary */
+      padding-bottom: 0%; 
   }
 }

@@ -7,11 +7,13 @@ import Team from './components/pages/Team/Team';
 import Contact from './components/pages/Contact/Contact';
 import BackgroundComponent from './components/Background';
 import MottoComponent from './components/MottoComponent'; 
+import ScrollToTop from './components/ScrollTop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />

@@ -7,10 +7,8 @@ function SummaryComponent() {
     <div className='outer-container'> {/* Added outer container */}
       <div className='summary-container'>
         <p className='summary-text'>
-          We combine academic rigour, practical expertise, and 
-          strategic vision 
-          <br/>to craft 
-          transformative solutions to research and policy challenges.
+          We combine academic rigour, practical expertise, and strategic vision 
+          <br/>to craft transformative solutions to research and policy challenges.
           </p>
           <img src={Pillars} alt='Pillars' className='summary-image' />
       </div>

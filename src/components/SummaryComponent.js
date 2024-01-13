@@ -8,7 +8,7 @@ function SummaryComponent() {
       <div className='summary-container'>
         <p className='summary-text'>
           We combine academic rigour, practical expertise, and strategic vision 
-          <br/> transformative solutions to research and policy challenges.
+          <br/> to craft transformative solutions to research and policy challenges.
           </p>
           <img src={Pillars} alt='Pillars' className='summary-image' />
       </div>

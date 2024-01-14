@@ -14,7 +14,7 @@
   .motto-text {
     font-family: 'Garamond, serif'; 
     font-style: italic; /* Italic text */
-    font-size: 5em; /* Large text */
+    font-size: 4em; /* Large text */
     /*color: #A4D9FF;*/
     /*color: rgba(31, 78, 121); /* Set background color to black */
     color: #FFC700;
@@ -33,7 +33,7 @@
     /*color: #FFFFFF; /* White text color for translation and explanation */
     color: #000000; /* White text color for translation and explanation */
     margin: 0% 20% 0.2% 20%;
-    padding: 0% 0% 7% 0%;
+    padding: 0% 0% 5% 0%;
   }
 
   .motto-highlighted {

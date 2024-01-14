@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "e163dbf27df47bc2d364",
-    "url": "/static/css/main.e78bdc2c.chunk.css"
+    "revision": "c4fd76fcf1e250978de7",
+    "url": "/static/css/main.0b95e935.chunk.css"
   },
   {
-    "revision": "e163dbf27df47bc2d364",
+    "revision": "c4fd76fcf1e250978de7",
     "url": "/static/js/main.4a500d05.chunk.js"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/static/media/bkg-pillars3.be64029d.png"
   },
   {
-    "revision": "a864fab9bc5317aa399d98e6049d56ce",
+    "revision": "c505c57869fa52079eb567a40dde81c5",
     "url": "/index.html"
   }
 ];

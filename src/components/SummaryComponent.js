@@ -1,6 +1,6 @@
 import React from 'react';
 import './SummaryComponent.css';
-import Pillars from './bkg-pillars.png';
+/*import Pillars from './bkg-pillars.png';*/
 
 function SummaryComponent() {
   return (
@@ -10,7 +10,6 @@ function SummaryComponent() {
           We combine academic rigour, practical expertise, and strategic vision 
           <br/> to craft transformative solutions to research and policy challenges.
           </p>
-          <img src={Pillars} alt='Pillars' className='summary-image' />
       </div>
     </div>
   );
@@ -31,3 +30,7 @@ export default SummaryComponent;
 </h1>
 
        <span className='title-part1'>A catalyst for</span> */
+
+
+/*        </p>
+       <img src={Pillars} alt='Pillars' className='summary-image' />*/

@@ -1,0 +1,36 @@
+.outer-container {
+  /*background-color: #000000; /* White background */
+  /*background-color: hsla(228, 15%, 31%,.9);*/
+  background-color: rgba(18, 18, 18, 0.8);
+  padding: 0cm 0cm 0cm 0cm;
+}
+
+.transition-container {
+  /*background-color: rgb(156, 156, 156);*/
+  /*background-color: rgb(239, 239, 239); */
+  /*background-color: hsla(226, 7%, 34%, 0.9); */
+  background-color: rgba(18, 18, 18,0);
+  background-color: #ffffff; 
+  background: linear-gradient(rgba(18, 18, 18, 0), rgba(255, 255, 255, 1));
+  /*background-color: rgba(31, 78, 121); */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column; /* Keeps children stacked vertically */
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  margin: 0 auto; /* Center the container */
+  width: 100%; /* Use the full width available */
+}
+
+.transition-image {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 20px; /* Space between the image and the text */
+}
+
+

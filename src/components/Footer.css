@@ -123,6 +123,7 @@
 
 .social-logo {
   color: #fff;
+  color: #FFC700;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -135,6 +136,7 @@
 
 .website-rights {
   color: #fff;
+  color: #FFC700;
   margin-bottom: 16px;
 }
 

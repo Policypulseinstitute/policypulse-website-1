@@ -8,6 +8,7 @@ import MottoComponent from '../MottoComponent';
 import SplitComponent from '../InfoSplit';
 import SplitComponentReverse from '../InfoSplit_reverse';
 import SummaryComponent from '../SummaryComponent'; 
+import TransitionComponent from '../TransitionComponent'; 
 import TeamComponent from '../TeamPictures';
 import ImageComponent from '../Partners';
 
@@ -26,7 +27,6 @@ function Home() {
   const partnersImgs = [
     "images/partners/logo_an.png",
     "images/partners/logo_dep.png",
-    "images/partners/logo_ec.png",
     "images/partners/logo_mar.png",
     "images/partners/logo_min.png",
     "images/partners/logo_ons.png",
@@ -41,6 +41,7 @@ function Home() {
       <HeroSection />
       <BackgroundComponent {...cardExpertise}/>
       <SummaryComponent /> 
+      <TransitionComponent /> 
       <SplitComponent {...cardPolicy}/>
       <SplitComponentReverse {...cardData}/>
       <SplitComponent {...cardPolitics}/>

@@ -10,7 +10,7 @@ function Footer() {
           Contact Us
         </p>
         <p className='footer-subscription-text'>
-          TBA
+          contact@policypulse.institute
         </p>
       </section>
       <section class='social-media'>

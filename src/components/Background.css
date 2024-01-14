@@ -21,6 +21,7 @@
   padding-bottom: 0px; /* Adds space between title and underline */
   padding-top: 0px;
   margin-bottom: 50px; /* Adds space between title and paragraphs */
+  margin-top: 60px; /* Adds space between title and paragraphs */
 }
 
 .info-text {

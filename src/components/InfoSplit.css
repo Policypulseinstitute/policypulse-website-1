@@ -32,7 +32,8 @@
     font-size: 48px;
     /* font-weight: bold; */
     font-Family: 'Futura';
-    color: #FFC700;
+    /* color: #FFC700;*/
+    color: rgba(31, 78, 121); 
     text-align: justify;
     margin-bottom: 5%; /* Adds space between title and paragraphs */
   }
@@ -41,11 +42,12 @@
     font-size: 25px;
     font-Family: 'Futura';
     color: rgba(31, 78, 121); 
+    /* color: rgba(31, 56, 100); */
     margin-bottom: 5%;
   }
 
   .split-text {
-    font-size: 22px;
+    font-size: 20px;
     font-Family: 'Avenir';
     color: #000000;
     text-align: justify;

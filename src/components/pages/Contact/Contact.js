@@ -17,7 +17,6 @@ function Contact() {
   const partnersImgs = [
     "images/partners/logo_an.png",
     "images/partners/logo_dep.png",
-    "images/partners/logo_ec.png",
     "images/partners/logo_mar.png",
     "images/partners/logo_min.png",
     "images/partners/logo_ons.png",

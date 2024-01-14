@@ -6,8 +6,8 @@ export const cardPolicy = {
   image: 'images/bkg-farm.png',
   title: 'Policy Expertise',
   subtitle: 'POLICY CRAFTING & EVALUATION',
-  par1: 'We offer a knowledge-based approach to policy development for supporting organisations and governments. We use research insights to help policymakers design and implement the most effective policies.',
-  par2: 'Effective policy development requires in-depth understanding of the local context to make the best use of existing evidence. It is also crucial that policy design incorporates social, political and financial risk. At Policy Pulse we help policymakers articulate these dimensions for sound, cost-effective, policy delivery in complex environments.'
+  par1: 'We offer a knowledge-based approach to policy development for supporting organisations and governments. We use research insights to help policymakers craft implementable and effective policies.',
+  par2: 'Our approach integrates existing policy evidence and in-depth understanding of the local context, while accounting for social, political and financial risk. At Policy Pulse we help policymakers articulate these dimensions for sound, cost-effective, policy delivery in complex environments.'
 }
 
 export const cardPolitics= {
@@ -21,7 +21,7 @@ export const cardData = {
   image: 'images/bkg-data.png',
   title: 'Data Analytics',
   subtitle: 'QUANTITATIVE TOOLS FOR EFFECTIVE DECISION-MAKING',
-  par1: 'We use machine learning tools to analyse large and complex datasets. We convey key quantitative findings through data visualisation to help policymakers get new insights from available data.',
+  par1: 'We use advanced quantitative techniques to analyse large and complex datasets. We convey key findings through data visualisation to help policymakers get new insights from available data.',
   par2: 'Policy Pulse combines public policy and data analytics experts that use knowledge to interpret data and formulate nuanced and effective policy recommendations.',
-  par3: 'Our experts routinely work with a broad range of data sources, from consumer and population surveys to financial data, helping organisations develop new analytical tools and perform accurate policy evaluation, monitoring and forecasting. '
+  par3: 'Our experts routinely work with a broad range of data sources, from consumer and population surveys to financial data, helping organisations develop new analytical tools and perform accurate policy monitoring and evaluation.'
 }

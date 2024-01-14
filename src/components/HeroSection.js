@@ -7,10 +7,8 @@ function HeroSection() {
     <div className='hero-container'>
       <video src='/videos/home1.mp4' autoPlay loop muted />
       <h1>
-        Knowledge and Data Analytics
-      </h1>
-      <h1>
-        for Policy
+      Knowledge and Data Analytics<br />
+      <span className="second-line">for Policy</span>
       </h1>
       <div className='hero-inner'>
         <h2>

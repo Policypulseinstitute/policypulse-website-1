@@ -31,7 +31,7 @@
   .split-title {
     font-size: 48px;
     /* font-weight: bold; */
-    font-Family: 'Futura';
+    font-Family: 'Avenir';
     /* color: #FFC700;*/
     color: rgba(31, 78, 121); 
     text-align: justify;
@@ -40,7 +40,7 @@
 
   .split-subtitle {
     font-size: 25px;
-    font-Family: 'Futura';
+    font-Family: 'Avenir';
     color: rgba(31, 78, 121); 
     /* color: rgba(31, 56, 100); */
     margin-bottom: 5%;
